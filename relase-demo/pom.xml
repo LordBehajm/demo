@@ -3,4 +3,27 @@
   <groupId>org.demo</groupId>
   <artifactId>relase-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<goals>install</goals>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+<!--         			<localCheckout>true</localCheckout> -->
+<!--         			<pushChanges>true</pushChanges> -->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<scm>
+	<developerConnection>scm:git:https://github.com/LordBehajm/demo.git</developerConnection>
+<!-- 		<connection>scm:git:antonijevic.veljko%40gmail.com@github.com:LordBehajm/sfg-pet-clinic.git</connection> -->
+<!-- 		<url>https://github.com/LordBehajm/sfg-pet-clinic.git</url>	 -->
+<!--  		<tag>sfg-pet-clinic-0.0.1-SNAPSHOT</tag>  -->
+<!--     <tag>sfg-pet-clinic-0.0.5</tag> -->
+  </scm>
+  
 </project>
