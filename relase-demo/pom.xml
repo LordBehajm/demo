@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.demo</groupId>
   <artifactId>relase-demo</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.2-SNAPSHOT</version>
   <build>
 		<plugins>
 			<plugin>
@@ -24,7 +24,7 @@
 <!-- 		<url>https://github.com/LordBehajm/sfg-pet-clinic.git</url>	 -->
 <!--  		<tag>sfg-pet-clinic-0.0.1-SNAPSHOT</tag>  -->
 <!--     <tag>sfg-pet-clinic-0.0.5</tag> -->
-    <tag>relase-demo-0.0.2</tag>
+    <tag>relase-demo-0.0.1</tag>
   </scm>
   
 </project>
